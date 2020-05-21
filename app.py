@@ -9,6 +9,9 @@ from linebot.exceptions import (
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
+import googlemaps
+from random import sample
+import requests
 
 app = Flask(__name__)
 
